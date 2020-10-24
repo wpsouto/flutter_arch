@@ -9,3 +9,12 @@ adb connect IP_do_Celular:5555
 
 Ao reiniciar o servidor mantenha o seu celular no USB e antes de dar connect pelo IP, remova do PC
 
+
+
+#######
+flutter config -h
+flutter channel
+flutter channel beta
+flutter config --enable-web
+
+
