@@ -1,0 +1,11 @@
+Tentei fazer aqui mas o meu fica dando a seguinte mensagem de erro: cannot connect to 192.168.1.107:5555: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (10061).
+
+Solucionou rodando esses comandos:
+adb kill-server
+adb start-server
+adb usb
+adb tcpip 5555
+adb connect IP_do_Celular:5555
+
+Ao reiniciar o servidor mantenha o seu celular no USB e antes de dar connect pelo IP, remova do PC
+
